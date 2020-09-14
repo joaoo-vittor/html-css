@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    th,
+    td {
+      padding: 10px;
+      background-color: #ccc5;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>15</td>
+      <td>15</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>60</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>90</td>
+      <td>90</td>
+    </tr>
+  </table>
+
+  <br>
+  <hr>
+  <br>
+
+  <table>
+    <tr>
+      <th></th>
+      <!-- scope="" determina se <th> será coluna ou linha -->
+      <th scope="col">Sabado</th>
+      <th scope="col">Domingo</th>
+    </tr>
+    <tr>
+      <th scope="row">Ingressos vendidos:</th>
+      <td>120</td>
+      <td>135</td>
+    </tr>
+    <tr>
+      <th scope="row">Total vendido:</th>
+      <td>$600</td>
+      <td>$675</td>
+    </tr>
+  </table>
+
+  <br>
+  <hr>
+  <br>
+
+  <table>
+    <tr>
+      <th></th>
+      <th>09:00</th>
+      <th>10:00</th>
+      <th>11:00</th>
+      <th>12:00</th>
+    </tr>
+    <tr>
+      <th>Segunda</th>
+      <!-- colspan="" junta o n° de colunas passado -->
+      <td colspan="2">Geography</td>
+      <td>Math</td>
+      <td>Art</td>
+    </tr>
+    <tr>
+      <th>Terça</th>
+      <td colspan="3">Gym</td>
+      <td>Home Ec</td>
+    </tr>
+  </table>
+
+  <br>
+  <hr>
+  <br>
+
+  <table>
+    <tr>
+      <th></th>
+      <th>ABC</th>
+      <th>BBC</th>
+      <th>CNN</th>
+    </tr>
+    <tr>
+      <th>6pm - 7pm</th>
+      <!-- rowspan="" junta o n° de linhas passado -->
+      <td rowspan="2">Movie</td>
+      <td>Comedy</td>
+      <td>News</td>
+    </tr>
+    <tr>
+      <th>7pm - 8pm</th>
+      <td>Sport</td>
+      <td>Current Affairs</td>
+    </tr>
+  </table>
+
+  <br>
+  <hr>
+  <br>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Income</th>
+        <th>Expenditure</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>1st January</th>
+        <td>250</td>
+        <td>36</td>
+      </tr>
+      <tr>
+        <th>2nd January</th>
+        <td>285</td>
+        <td>48</td>
+      </tr>
+      <!-- additional rows as above -->
+      <tr>
+        <th>31st January</th>
+        <td>129</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td></td>
+        <td>7824</td>
+        <td>1241</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <br>
+  <hr>
+  <br>
+
+  <table width="400" cellpadding="10" cellspacing="5">
+    <tr>
+      <th width="150"></th>
+      <th>Withdrawn</th>
+      <th>Credit</th>
+      <th width="150">Balance</th>
+    </tr>
+    <tr>
+      <th>January</th>
+      <td>250.00</td>
+      <td>660.50</td>
+      <td>410.50</td>
+    </tr>
+    <tr>
+      <th>February</th>
+      <td>135.55</td>
+      <td>895.20</td>
+      <td>1170.15</td>
+    </tr>
+  </table>
+
+  <br>
+  <hr>
+  <br>
+
+  <table border="2" bgcolor="#efefef">
+    <tr>
+      <th width="150"></th>
+      <th>Withdrawn</th>
+      <th>Credit</th>
+      <th width="150" bgcolor="#cccccc">Balance</th>
+    </tr>
+    <tr>
+      <th>January</th>
+      <td>250.00</td>
+      <td>660.50</td>
+      <td bgcolor="#cccccc">410.50</td>
+    </tr>
+    <tr>
+      <th>February</th>
+      <td>135.55</td>
+      <td>895.20</td>
+      <td bgcolor="#cccccc">1170.15</td>
+    </tr>
+  </table>
+
+</body>
+</html>
