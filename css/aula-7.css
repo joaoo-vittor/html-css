@@ -1,1 +1,19 @@
+/* nome da cor */
+h1 {
+  color: darkblue;
+}
 
+/* codigo hexadecimal */
+h2 {
+  color: #ee3e80;
+}
+
+/* valor rgb */
+p {
+  color: rgb(100, 100, 90);
+}
+
+.page {
+  padding: 15px;
+  width: 550px;
+}

@@ -59,6 +59,62 @@
           atributo id igual a introducao 
         </td>
       </tr>
+      <tr>
+        <td>Seletor filho</td>
+        <td>
+          Encontra todo elemento que é filho <br>
+          direto do outro.
+        </td>
+        <td>
+          <strong>li > a { }</strong> <br>
+          seleciona o elemento 'a' que tem são filhos <br>
+          diretos de 'li'
+        </td>
+      </tr>
+      <tr>
+        <td>Seletor de descendente</td>
+        <td>
+          Corresponde a um elemento que é um <br>
+          descendente de outro especificado <br>
+          elemento (não apenas um filho direto de <br>
+          aquele elemento)
+        </td>
+        <td>
+          <strong>p a { }</strong> <br>
+          Tem como alvo quaisquer elementos 'a' que <br>
+          esteja dentro de um elemento 'p', mesmo que <br>
+          existem outros elementos aninhados <br>
+          entre eles
+        </td>
+      </tr>
+      <tr>
+        <td>Seletor de irmão adjacente</td>
+        <td>
+          Corresponde a um elemento que é o <br>
+          próximo irmão de outro
+        </td>
+        <td>
+          <strong>h1 + p { }</strong> <br>
+          Segmenta o primeiro elemento 'p' <br>
+          após qualquer elemento 'h1' (mas não <br>
+          outros elementos 'p')
+        </td>
+      </tr>
+      <tr>
+        <td>Seletor de irmão geral</td>
+        <td>
+          Corresponde a um elemento que é um <br>
+          irmão de outro, embora seja <br>
+          não tem que ser diretamente <br>
+          elemento precedente
+        </td>
+        <td>
+          <strong>h1 + p { }</strong> <br>
+          Se você tivesse dois elementos 'p' que <br>
+          são irmãos de um elemento 'h1', <br>
+          esta regra se aplicaria a ambos
+        </td>
+      </tr>
     </tbody>
   </table>
 </body>

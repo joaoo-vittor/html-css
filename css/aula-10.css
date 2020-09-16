@@ -1,1 +1,14 @@
+body {
+  background-color: #CCC;
+  background-color: hsl(0, 0%, 78%);
+}
 
+p {
+  background-color: #fff;
+  background-color: hsla(0, 100%, 100%, 0.5);
+}
+
+.page {
+  width: 500px;
+  height: 500px;
+}
