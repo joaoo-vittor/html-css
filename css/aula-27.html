@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 17</title>
+  <link rel="stylesheet" href="./aula-27.css">
+  <style>
+    .box {
+      width: 700px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Attribute Selectors</h1>
+  <table>
+    <thead>
+      <th>Seletor</th>
+      <th>Significado</th>
+      <th>Exemplo</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Existência</strong> <br> <br> <br></td>
+        <td>
+          <strong>[ ]</strong> <br>
+          Corresponde a um atributo específico <br>
+          (qualquer que seja o seu valor)
+        </td>
+        <td>
+          <strong>p[class] <br></strong>
+          Segmenta qualquer elemento &lt;p&gt; com um <br>
+          atributo chamado classe
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Igualdade</strong> <br> <br> <br>
+        </td>
+        <td>
+          <strong>[=] <br></strong>
+          Corresponde a um atributo específico com<br>
+          um valor específico
+        </td>
+        <td>
+          <strong>p[class="intro"] <br></strong>
+          Segmenta qualquer elemento &lt;p&gt; com <br>
+          atributo de classe chamado quais o valor seja intro
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Espaço</strong> <br> <br> <br> <br>
+        </td>
+        <td>
+          <strong>[~=] <br></strong>
+          Corresponde a um atributo específico <br>
+          cujo valor aparece em um espaço- <br>
+          lista separada de palavras
+        </td>
+        <td>
+          <strong>p[class~="intro"] <br></strong>
+          Segmenta qualquer elemento &lt;p&gt; com <br>
+          um atributo chamado classe cujo <br>
+          valor é uma lista de espaços separados <br>
+          palavras, uma das quais é intro
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Prefixo</strong> <br> <br> <br> <br>
+        </td>
+        <td>
+          <strong>[^=] <br></strong>
+          Corresponde a um atributo específico <br>
+          cujo valor começa com um <br>
+          string específica
+        </td>
+        <td>
+          <strong>p[attr^"d"] <br></strong>
+          Segmenta qualquer elemento &lt;p&gt; com <br>
+          um atributo cujo valor começa <br>
+          com a letra "d"
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Substring</strong> <br> <br> <br> <br>
+        </td>
+        <td>
+          <strong>[*=] <br></strong>
+          Corresponde a um atributo específico <br>
+          cujo valor contém um específico <br>
+          substring
+        </td>
+        <td>
+          <strong>p[attr*"do"] <br></strong>
+          Segmenta qualquer elemento &lt;p&gt; com um <br>
+          atributo cujo valor contém <br>
+          as letras "do"
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Sufixo</strong> <br> <br> <br> <br>
+        </td>
+        <td>
+          <strong>[$=] <br></strong>
+          Corresponde a um atributo específico <br>
+          cujo valor termina com um específico <br>
+          de string
+        </td>
+        <td>
+          <strong>p[attr$"g"] <br></strong>
+          Segmenta qualquer elemento &lt;p&gt; com um <br>
+          atributo cujo valor termina com <br>
+          a letra "g"
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

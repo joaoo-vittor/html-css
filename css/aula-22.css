@@ -1,0 +1,9 @@
+h1 {
+  background-image: url("https://source.unsplash.com/random/250x150");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.credit {
+  text-indent: 20px;
+}
