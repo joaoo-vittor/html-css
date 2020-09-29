@@ -1,0 +1,12 @@
+div.box {
+  margin: 100px;
+}
+
+p {
+  width: 275px;
+  border: solid 2px #08d;
+}
+
+p.exemple {
+  padding: 10px;
+}
