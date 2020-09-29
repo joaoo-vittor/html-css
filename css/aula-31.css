@@ -1,0 +1,12 @@
+p.one {
+  overflow: hidden;
+}
+
+p.two {
+  overflow: scroll;
+}
+
+div.box {
+  width: 500px;
+  height: 200px;
+}

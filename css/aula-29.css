@@ -1,0 +1,7 @@
+td.description {
+  min-width: 350px;
+  max-width: 550px;
+  text-align: left;
+  padding: 5px;
+  margin: 0px;
+}
