@@ -7,5 +7,252 @@
 </head>
 <body>
   
+  <!-- action="url" -->
+  <h1>Form Structure:</h1>
+  <form action="#" method="get">
+    <p>This is where the form controls will appear.</p>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Text input:</h1>
+  <form action="#">
+    <p>
+      Username:
+      <input type="text" name="username" size="15" maxlength="30">
+      <!-- maxlength="numero maximo de numero ou caracteres nesse campo." -->
+    </p>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Password input:</h1>
+  <form action="#">
+    <p>
+      Username:
+      <input type="text" name="username" id="username" size="20" maxlength="30">
+    </p>
+    <p>
+      Password:
+      <input type="password" name="password" id="password" size="15" maxlength="30">
+    </p>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Text Area:</h1>
+  <form action="#">
+    <p>What did you think of this gig?</p>
+    <textarea name="comments" id="comments" cols="20" rows="4">Enter your comments...
+    </textarea>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Radio Button:</h1>
+  <form action="#">
+    <p>
+      Please select your favorite genre:
+      <br>
+      <input type="radio" name="genre" value="rock" checked> rock
+      <input type="radio" name="genre" value="pop"> Pop
+      <input type="radio" name="genre" value="jazz"> Jazz 
+    </p>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Checkbox:</h1>
+  <form action="#">
+    <p>
+      Please select your favorite music service(s): <br>
+      <input type="checkbox" name="service" value="itunes" checked> iTunes
+      <input type="checkbox" name="service" value="lastfm"> Last.fm 
+      <input type="checkbox" name="service" value="spotify"> Spotify 
+    </p>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Drop Down List Box:</h1>
+  <form action="#">
+    <p>
+      What device do you listen to music on?
+    </p>
+    <select name="devices">
+      <option value="ipod">iPod</option>
+      <option value="radio">Radio</option>
+      <option value="computer" selected>Computer</option>
+    </select>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Multiple Select Box:</h1>
+  <form action="#">
+    <p>
+      Do you play any of the following instruments? <br>
+      (You can select more than one option by holding <br>
+       down control on a PC or command key on a Mac <br> 
+       while selecting different options.)
+    </p>
+    <select name="instruments" size="3" multiple>
+      <option value="guitar" selected>Guitar</option>
+      <option value="drums">Drums</option>
+      <option value="keyboard" selected>Keyboard</option>
+      <option value="bass">Bass</option>
+    </select>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>File Input Box:</h1>
+  <form action="#" method="post">
+    <p>Upload your song in MP3 Form:</p>
+    <input type="file" name="user-song">
+    <input type="submit" value="Upload">
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Submit Button:</h1>
+  <form action="#">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email">
+    <input type="submit" name="subscribe" value="Subscribe">
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Image Button:</h1>
+  <form action="#">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email">
+    <input type="image" src="./img/subscribe.png" width="100" height="50">
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>Labelling Form Controls:</h1>
+  <form action="#">
+    <label>Age: 
+      <input type="text" name="age">
+    </label>
+    <br>
+    <input type="radio" name="gender" id="female" value="f">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="male" value="m">
+    <label for="male">Male</label>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <fieldset>
+    <legend>Contact details:</legend>
+    <label>
+      Email:  
+      <br>
+      <input type="text" name="email">
+    </label> <br>
+    <label>
+      Mobile: 
+      <br>
+      <input type="text" name="mobile">
+    </label> <br>
+    <label>
+      Telephone:
+      <br>
+      <input type="text" name="telephone">
+    </label>
+  </fieldset>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>HTML5: Form Validation:</h1>
+  <form action="#" method="POST">
+    <label for="username">Username: </label>
+    <input type="text" name="username" required> <br> <br>
+    <label for="password">Password: </label>
+    <input type="password" name="password" required> <br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>HTML5: Date Input:</h1>
+  <form action="#" method="post">
+    <label for="username">Departure date: </label>
+    <input type="date" name="depart">
+    <input type="submit" value="Submit">
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>HTML5: Email & URL Input: </h1>
+  <form action="#">
+    <p>Please enter your email address: </p>
+    <input type="email" name="email">
+    <input type="submit" value="Submit">
+  </form>
+
+  <hr>
+
+  <form action="#">
+    <p>Please enter your email address: </p>
+    <input type="url" name="website">
+    <input type="submit" value="Submit">
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
+  <h1>HTML5: Search Input:</h1>
+  <form action="#">
+    <p>Search:</p>
+    <input type="search" name="search">
+    <input type="submit" value="Serach">
+  </form>
+
+  <form action="#">
+    <p>Search:</p>
+    <input type="search" name="search" placeholder="Enter keyword">
+    <input type="submit" value="Serach">
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
 </body>
 </html>
