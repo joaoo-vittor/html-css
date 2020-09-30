@@ -1,0 +1,25 @@
+td {
+  background-color: #0088dd;
+  padding: 25px;
+  border: 2px solid #000;
+}
+
+table.one {
+  border-spacing: 5px 15px;
+}
+
+table.two {
+  border-collapse: collapse;
+}
+
+div.box {
+  display: flex;
+}
+
+div.box-one {
+  margin: 10px 15px;
+}
+
+div.box-two {
+  margin: 10px 15px;
+}
