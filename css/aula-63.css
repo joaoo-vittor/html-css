@@ -1,0 +1,28 @@
+body {
+  width: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #654;
+}
+
+h1 {
+  background-color: #efefef;
+  padding: 10px;
+}
+
+p {
+  width: 230px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  background-color: #efefef;
+}
+
+.clear {
+  clear: left;
+}
+
+div {
+  border: 1px solid #654;
+  overflow: auto;
+  width: 100%;
+}

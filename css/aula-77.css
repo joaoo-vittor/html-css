@@ -1,0 +1,6 @@
+div.box {
+  margin: 20px;
+  width: 30%;
+  height: 100px;
+  background-image: linear-gradient(to right, yellow, red);
+}

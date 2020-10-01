@@ -1,0 +1,33 @@
+body {
+  width: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #654;
+}
+
+h1 {
+  background-color: #efefef;
+  padding: 10px;
+}
+
+p {
+  width: 450px;
+}
+
+p.exemple {
+  margin-top: 100px;
+}
+
+/* aula 6 */
+
+blockquote {
+  float: right;
+  width: 275px;
+  font-size: 130%;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+  border-top: 1px solid #654;
+  border-bottom: 1px solid #654;
+}
+

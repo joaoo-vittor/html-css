@@ -1,0 +1,12 @@
+body {
+/* p { */
+  background-image: url("https://source.unsplash.com/random/500x300");
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+
+
+div.box {
+  width: 40%;
+}
